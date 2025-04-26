@@ -9,11 +9,10 @@ The code here is for the LLM component of the project.
 
 1. Fine-tune LLMs in PyTorch on a “controllable” programming language.
 2. Interface between the model and the verification system
-3. Parsers translate between normal code and our controllable language.
+3. Translate between normal code and our controllable language using custom-made parsers.
 4. Connect the model to the verifier by creating a backtracker (to “undo” any mistakes made).
 
 
 ## ⚡ Key Contributions
-The paper 
+We show that it is possible to greatly enhance model performance on the SPIDER dataset and provide correctness guarantees for every question answered.
 
-![KAN Verification Visualization](results.png)
